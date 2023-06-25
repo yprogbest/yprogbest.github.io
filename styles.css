@@ -36,6 +36,6 @@ footer {
 }
 
 .read-more-button {
-  font-size: 15px; /* ボタンのテキストのフォントサイズを大きくする */
+  font-size: 20px; /* ボタンのテキストのフォントサイズを大きくする */
   padding: 5px 10px; /* ボタンのパディングを増やしてサイズを大きくする */
 }
