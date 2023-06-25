@@ -30,3 +30,11 @@ footer {
   color: #888;
   font-size: 12px;
 }
+
+.full-article {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
