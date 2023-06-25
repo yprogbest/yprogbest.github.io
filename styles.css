@@ -11,11 +11,26 @@ header {
   background-color: #337079;
   color: white;
 }
+
 header .headline{
     line-height: 100px;
     float: left;
     font-size: 30px;
     margin-left: 100px;
+}
+
+.nav-list {
+    line-height: 100px;
+    float: left;
+    margin-left: 30px;
+    list-style: none;
+    font-weight: bold;
+}
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  font-size:18px
+  margin: 0 20px;
 }
 
 h1 {
@@ -57,19 +72,4 @@ footer {
   font-size: 20px; /* ボタンのテキストのフォントサイズを大きくする */
   padding: 5px 10px; /* ボタンのパディングを増やしてサイズを大きくする */
 }
-
-.nav-list {
-    line-height: 100px;
-    float: left;
-    margin-left: 30px;
-    list-style: none;
-    font-weight: bold;
-}
-.nav-list-item {
-  list-style: none;
-  display: inline-block;
-  font-size:18px
-  margin: 0 20px;
-}
-
 
