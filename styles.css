@@ -4,11 +4,6 @@ body {
   padding: 0;
 }
 
-.link-color{
-    color: #fff;
-    text-decoration: none;
-}
-
 header {
   height: 100px;
   width: 100%;
@@ -89,4 +84,7 @@ ul.footer-menu li {
 display: inline;
 }
 
-
+.link-color{
+    color: #fff;
+    text-decoration: none;
+}
