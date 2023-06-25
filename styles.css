@@ -31,7 +31,11 @@ footer {
   font-size: 12px;
 }
 
-
 .hidden {
   display: none;
+}
+
+.read-more-button {
+  font-size: 18px; /* ボタンのテキストのフォントサイズを大きくする */
+  padding: 10px 20px; /* ボタンのパディングを増やしてサイズを大きくする */
 }
