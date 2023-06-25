@@ -9,7 +9,6 @@ header {
   width: 100%;
   padding: 15px 0;
   background-color: #174a5c;
-  color: #fff;
 }
 
 header .headline{
@@ -80,7 +79,12 @@ footer {
     color: white;
     text-align: center;
 }
+
 ul.footer-menu li {
 display: inline;
+}
+
+.link-color{
+    color: #fff;
 }
 
