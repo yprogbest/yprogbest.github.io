@@ -4,6 +4,10 @@ body {
   padding: 0;
 }
 
+.link-color{
+    color: #fff;
+}
+
 header {
   height: 100px;
   width: 100%;
@@ -16,6 +20,7 @@ header .headline{
     float: left;
     font-size: 30px;
     margin-left: 100px;
+  　text-decoration: none;
 }
 
 .nav-list {
@@ -84,7 +89,4 @@ ul.footer-menu li {
 display: inline;
 }
 
-.link-color{
-    color: #fff;
-}
 
