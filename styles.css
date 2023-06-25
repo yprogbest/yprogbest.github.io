@@ -52,6 +52,10 @@ main {
 article {
   margin-bottom: 20px;
 }
+article img{
+  max-width: 100%;
+  height: auto;
+}
 
 h2 {
   margin-top: 0;
