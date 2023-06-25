@@ -49,3 +49,17 @@ footer {
   font-size: 20px; /* ボタンのテキストのフォントサイズを大きくする */
   padding: 5px 10px; /* ボタンのパディングを増やしてサイズを大きくする */
 }
+
+.nav-list {
+    line-height: 100px;
+    list-style: none;
+    font-weight: bold;
+}
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 0 20px;
+}
+
+
