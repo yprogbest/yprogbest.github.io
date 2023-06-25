@@ -6,6 +6,7 @@ body {
 
 .link-color{
     color: #fff;
+    text-decoration: none;
 }
 
 header {
@@ -20,7 +21,6 @@ header .headline{
     float: left;
     font-size: 30px;
     margin-left: 100px;
-  　text-decoration: none;
 }
 
 .nav-list {
