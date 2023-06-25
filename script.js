@@ -7,3 +7,4 @@ function showFullArticle(event, articleId) {
   fullArticle.style.display = 'block';
   button.style.display = 'none';
 }
+
