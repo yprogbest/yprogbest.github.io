@@ -1,6 +1,6 @@
 function showFullArticle(event, articleId) {
   var button = event.target;
-  var fullArticle = document.getElementById(articleId);
+  var fullArticle = document.querySelector('#' + articleId);
 
   if (fullArticle.classList.contains('hidden')) {
     fullArticle.classList.remove('hidden');
