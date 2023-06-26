@@ -1,3 +1,4 @@
+// 各記事の「続きを見る」ボタンの処理
 function showFullArticle(event, articleId) {
   var button = event.target;
   var fullArticle = document.querySelector('#' + articleId);
@@ -11,3 +12,15 @@ function showFullArticle(event, articleId) {
   }
 }
 
+
+// スクロール用のボタンの処理
+function scrollArticle(event){
+  const btn = document.getElementById("btn-scroll");
+  
+  btn.addEventListener("click",()=>{
+  window.scroll({top:0,
+                befavior:"smooth",
+                });
+  });
+  
+}
