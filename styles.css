@@ -14,8 +14,8 @@ header {
 header .headline{
     line-height: 100px;
     float: left;
-    font-size: 30px;
-    margin-left: 100px;
+    font-size: 25px;
+    margin-left: 70px;
 }
 
 .nav-list {
@@ -104,6 +104,6 @@ ul.footer-menu li {
   height:75px;
   border-radius:50%;
   text-align:center;
-  font-size:30px;
+  font-size:20px;
   font-weight: bold;
 }
