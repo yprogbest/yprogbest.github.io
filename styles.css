@@ -94,7 +94,7 @@ display: inline;
     text-decoration: none;
 }
 
-#btn-scroll{
+.btn-scroll{
   position:fixed;
   bottom:60px;
   right:30px;
