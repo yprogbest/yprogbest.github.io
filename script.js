@@ -17,10 +17,11 @@ function showFullArticle(event, articleId) {
 function scrollArticle(event){
   const btn = document.getElementById("btn-scroll");
   
-  btn.addEventListener("click",()=>{
-  window.scroll({top:0,
-                befavior:"smooth",
-                });
+  btn.addEventListener("click", () => {
+    window.scroll({
+      top: 0,
+      behavior: "smooth",
+    });
   });
   
 }
