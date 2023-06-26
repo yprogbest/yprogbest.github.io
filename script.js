@@ -15,9 +15,9 @@ function showFullArticle(event, articleId) {
 
 // スクロール用のボタンの処理
 function scrollArticle(event){
-  const btn = document.getElementById("btn-scroll");
+  const buttonScroll = event.target;
   
-  btn.addEventListener("click", () => {
+  buttonScroll.addEventListener("click", () => {
     window.scroll({
       top: 0,
       behavior: "smooth",
