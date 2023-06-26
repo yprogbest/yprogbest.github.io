@@ -14,7 +14,7 @@ header {
 header .headline{
     line-height: 100px;
     float: left;
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 100px;
 }
 
@@ -34,7 +34,7 @@ header .headline{
 
 h1 {
   margin: 0;
-  font-size:30px
+  font-size:20px
 }
 
 main {
@@ -52,16 +52,16 @@ img {
 
 h2 {
   margin-top: 0;
-  font-size:28px
+  font-size:18px
 }
 
 h3 {
   margin-top: 0;
-  font-size:26px
+  font-size:16px
 }
 
 p {
-  font-size:24px
+  font-size:14px
 }
 
 footer {
@@ -73,7 +73,7 @@ footer {
 }
 
 .read-more-button {
-  font-size: 22px; /* ボタンのテキストのフォントサイズを大きくする */
+  font-size: 16px; /* ボタンのテキストのフォントサイズを大きくする */
   padding: 5px 10px; /* ボタンのパディングを増やしてサイズを大きくする */
 }
 
@@ -87,7 +87,7 @@ footer {
 
 ul.footer-menu li {
   display: inline;
-  font-size:24px
+  font-size:14px
 }
 
 .link-color{
@@ -100,10 +100,10 @@ ul.footer-menu li {
   bottom:60px;
   right:30px;
   cursor:pointer;
-  width:100px;
-  height:100px;
+  width:80px;
+  height:80px;
   border-radius:50%;
   text-align:center;
-  font-size:40px;
+  font-size:20px;
   font-weight: bold;
 }
