@@ -14,7 +14,7 @@ header {
 header .headline{
     line-height: 100px;
     float: left;
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 100px;
 }
 
@@ -34,7 +34,7 @@ header .headline{
 
 h1 {
   margin: 0;
-  font-size:22px
+  font-size:30px
 }
 
 main {
@@ -52,16 +52,16 @@ img {
 
 h2 {
   margin-top: 0;
-  font-size:20px
+  font-size:28px
 }
 
 h3 {
   margin-top: 0;
-  font-size:18px
+  font-size:26px
 }
 
 p {
-  font-size:16px
+  font-size:24px
 }
 
 footer {
@@ -73,7 +73,7 @@ footer {
 }
 
 .read-more-button {
-  font-size: 20px; /* ボタンのテキストのフォントサイズを大きくする */
+  font-size: 22px; /* ボタンのテキストのフォントサイズを大きくする */
   padding: 5px 10px; /* ボタンのパディングを増やしてサイズを大きくする */
 }
 
