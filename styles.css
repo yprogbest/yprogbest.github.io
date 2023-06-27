@@ -142,9 +142,6 @@ ul.footer-menu li {
   line-height: 55px;
 }
 .scrollImg{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width:80%;
   height:80%;
 }
