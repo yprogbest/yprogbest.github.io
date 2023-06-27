@@ -43,3 +43,8 @@ function h1Layout(){
   target.onclick = ({ target }) =>  neonGlory(target);
 }
 
+// DOMの読み込みが完了したら実行する
+document.addEventListener("DOMContentLoaded", function() {
+  h1Layout();
+});
+
