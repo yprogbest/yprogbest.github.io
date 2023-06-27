@@ -54,24 +54,7 @@ img {
 h2 {
   margin-top: 0;
   font-size:18px
-  padding: 0.25em 1em;
-  border-top: solid 2px black;
-  border-bottom: solid 2px black;
-}
-h2:before, h2:after {
-  content: '';
-  position: absolute;
-  top: -7px;
-  width: 2px;
-  height: -webkit-calc(100% + 14px);
-  height: calc(100% + 14px);
-  background-color: black;
-}
-h2:before {
-  left: 7px;
-}
-h2:after {
-  right: 7px;
+  background: linear-gradient(transparent 70%, #a7d6ff 70%);
 }
 
 h3 {
