@@ -54,26 +54,24 @@ img {
 h2 {
   margin-top: 0;
   font-size:18px
-  position: relative;
   padding: 0.25em 1em;
-  border: solid 2px black;
-  border-radius: 3px 0 3px 0;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
 }
 h2:before, h2:after {
   content: '';
   position: absolute;
-  width:10px;
-  height: 10px;
-  border: solid 2px black;
-  border-radius: 50%;
-}
-h2:after {
-  top:-12px;
-  left:-12px;
+  top: -7px;
+  width: 2px;
+  height: -webkit-calc(100% + 14px);
+  height: calc(100% + 14px);
+  background-color: black;
 }
 h2:before {
-  bottom:-12px;
-  right:-12px;
+  left: 7px;
+}
+h2:after {
+  right: 7px;
 }
 
 h3 {
