@@ -52,10 +52,10 @@ img {
 }
 
 h2 {
-/*   margin-top: 0; */
+  margin-top: 0;
   font-size:18px;
   position: relative;
-  padding: 0.10em 0;
+  padding: 0.25em 0;
 }
 h2:after {
   content: "";
