@@ -132,7 +132,7 @@ ul.footer-menu li {
   box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
 }
 .btn-scroll i{
-  font-size: 150%;
+  font-size: 100%;
   line-height: 60px;
   -webkit-transition: all .3s;
   transition: all .3s;
