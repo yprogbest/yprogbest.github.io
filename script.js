@@ -20,13 +20,4 @@ function scrollArticle(event){
     top: 0,
     behavior: "smooth",
   });
-
-  // const buttonScroll = event.target;
-  // buttonScroll.addEventListener("click", () => {
-  //   window.scroll({
-  //     top: 0,
-  //     behavior: "smooth",
-  //   });
-  // });
-  
 }
