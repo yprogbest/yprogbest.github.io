@@ -131,16 +131,21 @@ ul.footer-menu li {
   -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
   box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
 }
-.btn-scroll i{
-  font-size: 80%;
+.btn-scroll{
+/*   font-size: 150%; */
   line-height: 60px;
   -webkit-transition: all .3s;
   transition: all .3s;
   letter-spacing: 0;
 }
-.btn-scroll:hover i{
+.btn-scroll:hover{
   line-height: 55px;
 }
+.scrollImg{
+  width:80%;
+  height:80%;
+}
+
 
 
 .google-form{
