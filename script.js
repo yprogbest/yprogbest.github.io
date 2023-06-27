@@ -25,7 +25,7 @@ function scrollArticle(event){
 
 
 //H1タグのレイアウト（ネオン管風）
-function h1Layout(event){
+function h1Layout(){
   
   const target = window.document.getElementsByTagName('h1')[0]
   
