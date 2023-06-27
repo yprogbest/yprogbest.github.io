@@ -15,13 +15,18 @@ function showFullArticle(event, articleId) {
 
 // スクロール用のボタンの処理
 function scrollArticle(event){
-  const buttonScroll = event.target;
   
-  buttonScroll.addEventListener("click", () => {
-    window.scroll({
-      top: 0,
-      behavior: "smooth",
-    });
+  window.scroll({
+    top: 0,
+    behavior: "smooth",
   });
+
+  // const buttonScroll = event.target;
+  // buttonScroll.addEventListener("click", () => {
+  //   window.scroll({
+  //     top: 0,
+  //     behavior: "smooth",
+  //   });
+  // });
   
 }
