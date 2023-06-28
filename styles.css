@@ -169,7 +169,7 @@ ul.footer-menu li {
 }
 
 /* --YouTubeサイズ調整-- */
-.video {
+.video{
 	position: relative;
 	width: 100%;
 	padding-top: 56.25%;
@@ -181,7 +181,6 @@ ul.footer-menu li {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	transform: translateX(-50%);
-	transform-origin: left top;
+	object-fit: cover; 
 }
 
