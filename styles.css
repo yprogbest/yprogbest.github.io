@@ -170,17 +170,16 @@ ul.footer-menu li {
 
 /* --YouTubeサイズ調整-- */
 .video{
-	position: relative;
-	width: 100%;
-	padding-top: 56.25%;
-	overflow: hidden;
+	position:relative;
+	width:100%;
+	padding-top:56.25%;
 }
 .video .youtube-movie{
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
 	width: 100%;
 	height: 100%;
-	object-fit: cover; 
 }
 
