@@ -64,7 +64,7 @@ img {
   width: 100%
 }
 
-article-img {
+.article-img {
   width: 80%
 }
 
@@ -190,7 +190,7 @@ ul.footer-menu li {
 /* レスポンシブ対応（縦持ちの場合） */
 @media only screen and (max-device-width: 480px) and (orientation: portrait){
 
-	article-img {
+	.article-img {
 	  width: 100%
 	}
 	
