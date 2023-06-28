@@ -61,7 +61,7 @@ article {
 }
 
 img {
-  width: 100%
+  width: 80%
 }
 
 h2 {
@@ -183,3 +183,20 @@ ul.footer-menu li {
 	height:100%;
 }
 
+
+/* レスポンシブ対応（縦持ちの場合） */
+@media only screen and (max-width: 480px) and (max-height: 800px) and (orientation: portrait){
+
+	img {
+	  width: 100%
+	}
+	
+	.video{
+		width:100%;
+	}
+	.video .youtube-movie{
+		width:100%;
+	}
+
+
+}
