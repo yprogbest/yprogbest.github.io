@@ -195,7 +195,7 @@ ul.footer-menu li {
 	}
 	
 	.video{
-		width:100%;
+		display: none;
 	}
 	.video .youtube-movie{
 		width:100%;
