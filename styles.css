@@ -186,6 +186,18 @@ ul.footer-menu li {
 	height:100%;
 }
 
+/* プロフィールの画像 */
+  figure {
+    text-align: center;
+  }
+
+  figcaption {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+
+
 
 /* レスポンシブ対応（縦持ちの場合） */
 @media only screen and (max-device-width: 480px) and (orientation: portrait){
