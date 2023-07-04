@@ -176,7 +176,6 @@ ul.footer-menu li {
 /* --YouTubeサイズ調整-- */
 .video{
 	position:relative;
-	width:100%;
 	padding-top:56.25%;
 	display: block;
 	margin-left: auto;
