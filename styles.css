@@ -175,13 +175,10 @@ ul.footer-menu li {
 
 /* --YouTubeサイズ調整-- */
 .video{
-	display: none;
+	text-align: center;
 }
 .video .youtube-movie{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
+	display: inline-block;
 }
 
 /* プロフィールの画像 */
