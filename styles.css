@@ -224,7 +224,7 @@ ul.footer-menu li {
 
 
 /* レスポンシブ対応（縦持ちの場合） */
-@media only screen and (max-device-width: 480px) and (orientation: portrait){
+@media only screen and (max-device-width: 480px){
 
 	/* ヘッダー */
 	header {
