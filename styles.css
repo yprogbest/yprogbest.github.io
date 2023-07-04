@@ -188,20 +188,21 @@ ul.footer-menu li {
 
 /* プロフィールの画像 */
   figure {
-    position: relative;
+	position: relative;
   }
   .figure-img {
-    display: block;
-    margin: 0 auto;
+	display: block;
+	margin: 0 auto;
   }
 
   figcaption {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	width: 100%;
+	margin-top:50px;
   }
 
 
