@@ -192,10 +192,7 @@ ul.footer-menu li {
 
 /* --YouTubeサイズ調整-- */
 .video{
-	text-align: center;
-}
-.video .youtube-movie{
-	max-width: 100%;
+	margin: 0 auto;
 }
 
 /* プロフィールの画像 */
