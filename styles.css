@@ -102,6 +102,11 @@ p {
 	font-weight: bold;
 }
 
+.under-sns {
+	background: linear-gradient(transparent 50%, #a8eaff 50%);
+	font-weight: bold;
+}
+
 footer {
 	color: #888;
 }
