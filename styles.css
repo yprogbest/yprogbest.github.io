@@ -128,6 +128,10 @@ footer {
 	text-align: center;
 }
 
+.ul.footer-menu{
+	padding: 0;
+}
+
 ul.footer-menu li {
 	display: inline;
 	font-size:14px;
