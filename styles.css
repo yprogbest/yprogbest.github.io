@@ -202,6 +202,29 @@ ul.footer-menu li {
 /* レスポンシブ対応（縦持ちの場合） */
 @media only screen and (max-device-width: 480px) and (orientation: portrait){
 
+	/* ヘッダー */
+	header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+	
+	.headline {
+	flex: 1;
+	text-align: center;
+	}
+	
+	.nav-list {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	justify-content: center;
+	}
+	
+	.nav-list-item {
+	margin: 0 10px;
+	}
+	
 	.article-img {
 	  width: 100%
 	}
