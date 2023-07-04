@@ -179,10 +179,11 @@ ul.footer-menu li {
 
 /* --YouTubeサイズ調整-- */
 .video{
-	text-align: center;
+        display: flex;
+        justify-content: center;
 }
 .video .youtube-movie{
-	display: inline-block;
+	
 }
 
 /* プロフィールの画像 */
