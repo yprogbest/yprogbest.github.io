@@ -135,7 +135,7 @@ footer {
 ul.footer-menu li {
 	display: inline;
 	font-size:14px;
-	margin-top:10px;
+	padding-top:10px;
 }
 
 .link-color{
