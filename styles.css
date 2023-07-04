@@ -11,165 +11,165 @@
 
 
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 header {
-  height: 100px;
-  width: 100%;
-  padding: 15px 0;
-  background-color: #333;
+	height: 100px;
+	width: 100%;
+	padding: 15px 0;
+	background-color: #333;
 }
 
 .headline{
-    line-height: 100px;
-    float: left;
-    margin-left: 20px;
+	line-height: 100px;
+	float: left;
+	margin-left: 20px;
 }
 
 .nav-list {
-    line-height: 100px;
-    float: left;
-    margin-left: 20px;
-    list-style: none;
-    font-weight: bold;
+	line-height: 100px;
+	float: left;
+	margin-left: 20px;
+	list-style: none;
+	font-weight: bold;
 }
 .nav-list-item {
-  list-style: none;
-  display: inline-block;
-  font-size:14px;
-  margin: 0 10px;
+	list-style: none;
+	display: inline-block;
+	font-size:14px;
+	margin: 0 10px;
 }
 
 h1 {
-  margin: 0;
-  font-size:25px;
-  font-family: 'Monoton', cursive;
-  font-weight: 400;
+	margin: 0;
+	font-size:25px;
+	font-family: 'Monoton', cursive;
+	font-weight: 400;
 }
 
 
 main {
-  padding: 20px;
+	padding: 20px;
 }
 
 article {
-  width: 100%;
-  margin-bottom: 20px;
+	width: 100%;
+	margin-bottom: 20px;
 }
 
 img {
-  width: 100%
+	width: 100%
 }
 
 .article-img {
-  width: 80%
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%
 }
 
 h2 {
-  margin-top: 0;
-  margin-bottom: 5px;
-  font-size:18px;
-  position: relative;
-  padding: 0.25em 0;
+	margin-top: 0;
+	margin-bottom: 5px;
+	font-size:18px;
+	position: relative;
+	padding: 0.25em 0;
 }
 h2:after {
-  content: "";
-  display: block;
-  height: 4px;
-  background: -webkit-linear-gradient(to right, rgb(230, 90, 90), transparent);
-  background: linear-gradient(to right, rgb(230, 90, 90), transparent);
+	content: "";
+	display: block;
+	height: 4px;
+	background: -webkit-linear-gradient(to right, rgb(230, 90, 90), transparent);
+	background: linear-gradient(to right, rgb(230, 90, 90), transparent);
 }
 
 h3 {
-  margin-top: 0;
-  font-size:16px
+	margin-top: 0;
+	font-size:16px
 }
 
 p {
-  font-size:14px
+	font-size:14px
 }
 
 footer {
-  color: #888;
+	color: #888;
 }
 
 .hidden {
-  display: none;
+	display: none;
 }
 
 .read-more-button {
-/*   font-size: 16px; */
-/*   padding: 5px 10px; */
-  position: relative;
-  display: inline-block;
-  padding: 0.25em 0.5em;
-  text-decoration: none;
-  color: #FFF;
-  background: #fd9535;/*背景色*/
-  border-bottom: solid 2px #d27d00;/*少し濃い目の色に*/
-  border-radius: 4px;/*角の丸み*/
-  box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
-  font-weight: bold;
+	position: relative;
+	display: inline-block;
+	padding: 0.25em 0.5em;
+	text-decoration: none;
+	color: #FFF;
+	background: #fd9535;/*背景色*/
+	border-bottom: solid 2px #d27d00;/*少し濃い目の色に*/
+	border-radius: 4px;/*角の丸み*/
+	box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+	font-weight: bold;
 }
 .read-more-button:active{
-  border-bottom: solid 2px #fd9535;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+	border-bottom: solid 2px #fd9535;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
 }
 
 .main-footer{
-    width: 100%;
-    height: 150px;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
+	width: 100%;
+	height: 150px;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
 }
 
 ul.footer-menu li {
-  display: inline;
-  font-size:14px
+	display: inline;
+	font-size:14px
 }
 
 .link-color{
-    color: #fff;
-    text-decoration: none;
+	color: #fff;
+	text-decoration: none;
 }
 
 .btn-scroll{
-  position:fixed;
-  text-align: center;
-  bottom:15px;
-  right:15px;
-  width: 60px;
-  height: 60px;
-  padding: 0;
-  background: #fff;
-  border-radius: 50%;
-  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
-  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+	position:fixed;
+	text-align: center;
+	bottom:15px;
+	right:15px;
+	width: 60px;
+	height: 60px;
+	padding: 0;
+	background: #fff;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+	box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
 }
 .btn-scroll{
-/*   font-size: 150%; */
-  line-height: 60px;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-  letter-spacing: 0;
+	line-height: 60px;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+	letter-spacing: 0;
 }
 .btn-scroll:hover{
-  line-height: 55px;
+	line-height: 55px;
 }
 .scrollImg{
-  margin:0;
-  margin-top:10%;
-  width:80%;
-  height:80%;
+	margin:0;
+	margin-top:10%;
+	width:80%;
+	height:80%;
 }
 
 
 .google-form{
-  width: 100%;
+	width: 100%;
 }
 
 /* --YouTubeサイズ調整-- */
