@@ -23,7 +23,7 @@ header {
   background-color: #333;
 }
 
-header .headline{
+.headline{
     line-height: 100px;
     float: left;
     margin-left: 20px;
@@ -224,6 +224,7 @@ ul.footer-menu li {
 	.headline {
 		line-height: 50px;
 		text-align: center;
+		margin: 0;
 	}
 	
 	.nav-list {
