@@ -177,9 +177,9 @@ ul.footer-menu li {
 .video{
 	position:relative;
 	padding-top:56.25%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .video .youtube-movie{
 	position:absolute;
