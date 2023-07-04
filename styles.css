@@ -217,7 +217,6 @@ ul.footer-menu li {
 		align-items: center;
 		height: 150px;
 		width: 100%;
-		padding: 15px 0;
 		background-color: #333;
 	}
 	
@@ -228,7 +227,7 @@ ul.footer-menu li {
 	.nav-list {
 		list-style: none;
 		padding: 0;
-		margin-top: 10px;
+		margin: 0;
 		text-align: center;
 		font-weight: bold;
 	}
