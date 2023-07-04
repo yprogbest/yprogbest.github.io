@@ -214,6 +214,11 @@ ul.footer-menu li {
 	color: #fff;
   }
 
+/* プロフィールのSNSのアイコン */
+.icon-container {
+	display: flex;
+}
+
 
 
 
