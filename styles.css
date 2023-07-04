@@ -96,6 +96,12 @@ p {
 	font-size:14px;
 }
 
+/* 文字にマーカー線を引く */
+.under {
+	background: linear-gradient(transparent 50%, #FFFF00 50%);
+	font-weight: bold;
+}
+
 footer {
 	color: #888;
 }
