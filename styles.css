@@ -180,10 +180,11 @@ ul.footer-menu li {
 
 /* --YouTubeサイズ調整-- */
 .video{
-        display: flex;
-        justify-content: center;
+	text-align: center;
 }
-
+.video .youtube-movie{
+	max-width: 100%;
+}
 
 /* プロフィールの画像 */
   figure {
