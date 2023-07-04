@@ -103,6 +103,7 @@ p {
 }
 
 .under-sns {
+	text-decoration: none;
 	background: linear-gradient(transparent 50%, #a8eaff 50%);
 	font-weight: bold;
 }
