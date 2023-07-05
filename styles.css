@@ -59,7 +59,7 @@ article {
 	width: 100%;
 	margin-bottom: 20px;
 	
-	padding: 5%;
+	padding: 5px;
 	background-color: #ffffff; /* 白色の背景 */
 	border-radius: 5px;
 	border: 2px dashed orange; /* オレンジ色の点線の輪郭 */
@@ -67,7 +67,7 @@ article {
 }
 
 img {
-	width: 90%;
+	max-width: 100%;
 }
 
 .article-img {
