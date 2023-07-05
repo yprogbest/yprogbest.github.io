@@ -52,18 +52,18 @@ h1 {
 
 
 main {
-	padding: 20px;
+	padding: 10px;
 }
 
 article {
+	width: 100%;
+	margin-bottom: 20px;
+	
 	padding: 10px;
 	background-color: #ffffff; /* 白色の背景 */
 	border-radius: 5px;
 	border: 2px dashed orange; /* オレンジ色の点線の輪郭 */
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
-	width: 100%;
-	margin-bottom: 20px;
 }
 
 img {
