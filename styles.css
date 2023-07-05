@@ -58,7 +58,6 @@ main {
 article {
 	width: calc(100% - 10px); /* 親要素の幅からpaddingを差し引く */
 	margin-bottom: 20px;
-	
 	padding: 5px;
 	background-color: #ffffff; /* 白色の背景 */
 	border-radius: 5px;
