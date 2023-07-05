@@ -59,8 +59,10 @@ article {
 	width: 100%;
 	margin-bottom: 20px;
 	
-	background-color: #f2f2f2;
+	background-color: #ffffff; /* 白色の背景 */
+	padding: 20px;
 	border-radius: 5px;
+	border: 2px dashed orange; /* オレンジ色の点線の輪郭 */
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
