@@ -52,7 +52,7 @@ h1 {
 
 
 main {
-/* 	padding: 10px; */
+	padding: 10px;
 }
 
 article {
@@ -63,11 +63,10 @@ article {
 	background-color: #ffffff; /* 白色の背景 */
 	border-radius: 5px;
 	border: 2px dashed orange; /* オレンジ色の点線の輪郭 */
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 img {
-	max-width: 100%;
+	width: 100%;
 }
 
 .article-img {
