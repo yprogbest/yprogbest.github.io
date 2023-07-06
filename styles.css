@@ -241,6 +241,25 @@ ul.footer-menu li {
   }
 
 
+/* 使用経験のあるプログラミング言語欄 */
+.language-icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh; /* ビューポートの高さいっぱいにする */
+}
+.language-icon-container img {
+  flex: 0 0 auto; /* アイコンのサイズは固定 */
+  width: 100px; /* アイコンの幅を指定 */
+  height: 100px; /* アイコンの高さを指定 */
+  margin: 10px; /* アイコン間の余白を指定 */
+}
+
+
+
+
+
 
 /* レスポンシブ対応（縦持ちの場合） */
 @media only screen and (max-width: 600px){
