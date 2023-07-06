@@ -209,7 +209,7 @@ ul.footer-menu li {
 
 /* YouTubeのチャンネル登録ボタン */
 .g-ytsubscribe{
-	margin-bottom:20px;
+	margin-bottom: 20px !important;
 }
 
 
