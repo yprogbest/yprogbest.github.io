@@ -105,6 +105,11 @@ p {
 	font-size:14px;
 }
 
+/* 太字 */
+.p-bold{
+	font-weight: bold;
+}
+
 /* 文字にマーカー線を引く */
 .under {
 	background: linear-gradient(transparent 50%, #FFFF00 50%);
