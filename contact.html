@@ -1,55 +1,24 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <link rel="shortcut icon" href="img/favicon.ico"/>
-  <link rel="apple-touch-icon" href="img/YProg.png" sizes="180x180">
-  <link rel="icon" type="image/png" href="img/YProg.png" sizes="192x192">
-  <link rel="stylesheet" href="styles.css">
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJT7GH63E6"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-DJT7GH63E6');
-  </script>
-  <script defer src="script.js"></script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9943550345669002"
-     crossorigin="anonymous"></script>
-  <script async src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="YProgのホームページに関するお問い合わせはこちらからお願いします．"/>
-  <title>お問い合わせ-YProg-</title>
-</head>
-<body>
-  <header>
-    <h1 class="headline">YProg</h1>
-    <ul class="nav-list">
-      <li class="nav-list-item"><a href="https://yprogbest.github.io" class="link-color">ホーム</a></li>　
-      <li class="nav-list-item"><a href="profile.html" class="link-color">プロフィール</a></li>
-      <li class="nav-list-item"><a href="contact.html" class="link-color">お問い合わせ</a></li>
-    </ul>
-  </header>
-  
-  <main>
-    <!--     Googleフォームの表示 -->
-    <iframe class="google-form lazyload" data-src="https://docs.google.com/forms/d/e/1FAIpQLSeMKwYzo84Z6_racA_v15WbZMpEykB7B8yuF2-WEgS01BYJJw/viewform?embedded=true" width="640" height="672" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
-    
-  </main>
 
-<!-- footer -->
-  <footer class="main-footer">
-　　<ul class="footer-menu">
-     <li><a href="https://yprogbest.github.io" class="link-color">ホーム</a> ｜</li>
-     <li><a href="profile.html" class="link-color">プロフィール ｜</a></li>
-     <br>
-     <li><a href="contact.html" class="link-color">お問い合わせ</a> ｜</li>
-     <li><a href="privacy.html" class="link-color">プライバシーポリシー</a> ｜</li>
-    </ul>
-    <p>© All rights reserved by YProg.</p>
-  </footer>
+  {% include _includes/head_contact.htm %}
+
   
-</body>
+  <body>
+
+    <!-- ヘッダー -->
+    {% include _includes/page-header.html %}
+    
+    <main>
+      <!--     Googleフォームの表示 -->
+      <iframe class="google-form lazyload" data-src="https://docs.google.com/forms/d/e/1FAIpQLSeMKwYzo84Z6_racA_v15WbZMpEykB7B8yuF2-WEgS01BYJJw/viewform?embedded=true" width="640" height="672" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+      
+    </main>
+
+    
+    <!-- footer -->
+    {% include _includes/page-footer.htmll %}
+    
+  </body>
 </html>
 
