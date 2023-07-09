@@ -163,7 +163,7 @@ ul.footer-menu{
 ul.footer-menu li {
 	display: inline;
 	font-size:14px;
-	padding-top:10px;
+	margin-top:10px;
 }
 
 .link-color{
