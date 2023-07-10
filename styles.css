@@ -77,6 +77,10 @@ img {
 	width: 80%;
 }
 
+.touch-prohibition{
+	pointer-events: none;
+}
+
 h2 {
 	margin-top: 5px;
 	margin-bottom: 5px;
