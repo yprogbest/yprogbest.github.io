@@ -22,8 +22,8 @@
     <script async src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js"></script>
     <script defer src="https://apis.google.com/js/platform.js"></script>
     <!-- jQueryのインストール（以下の2つ） -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/alfrcr/paginathing/dist/paginathing.min.js"></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script defer type="text/javascript" src="https://cdn.jsdelivr.net/gh/alfrcr/paginathing/dist/paginathing.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="thumbnail" content="https://yprogbest.github.io/img/YProg.png">
@@ -119,7 +119,7 @@
    <script type="text/javascript">
     jQuery(document).ready(function ($) {
       $(".pagenation-block-index").paginathing({
-        perPage: 5,//1ページあたりの表示件数
+        perPage: 10,//1ページあたりの表示件数
         prevText:'<i class="fas fa-angle-left"></i>',//1つ前のページへ移動するボタンのテキスト
         nextText:'<i class="fas fa-angle-right"></i>',//1つ次のページへ移動するボタンのテキスト
         activeClass: 'navi-active',//現在のページ番号に任意のclassを付与できます
