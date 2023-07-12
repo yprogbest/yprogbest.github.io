@@ -50,7 +50,6 @@ h1 {
 	font-weight: 400;
 }
 
-
 main {
 	padding: 10px;
 }
@@ -114,7 +113,6 @@ p {
 	text-decoration: none;
 	color: inherit; /* デフォルトのテキスト色を使用 */
 }
-
 
 /* 太字 */
 .p-bold{
