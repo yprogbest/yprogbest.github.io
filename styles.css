@@ -287,7 +287,7 @@ li.page.navi-active a {
 	background: #ebfcfe;
 	transform: scale(1.2);
 }
-.pagenation_block article {
+.pagenation-block-index article {
 	border-bottom: solid 1px #ddd;
 }
 /* jQueryライブラリpaginathing.jsのレイアウト（終わり） */
