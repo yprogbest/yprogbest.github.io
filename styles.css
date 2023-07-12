@@ -253,18 +253,6 @@ ul.footer-menu li a{
 }
 
 /* jQueryライブラリpaginathing.jsのレイアウト */
-.pagenation-block-index{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: aliceblue;
-    width: 100%;
-    margin: 10px auto;
-    padding: 20px;
-    list-style: none;
-    text-align: center;
-}
-
 .pagination{
     list-style: none;
     display: flex;
