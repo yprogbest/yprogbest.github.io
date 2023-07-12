@@ -6,6 +6,8 @@
     <link rel="icon" type="image/png" href="https://yprogbest.github.io/img/YProg.png" sizes="192x192">
     <link rel="canonical" href="https://yprogbest.github.io/">
     <link rel="stylesheet" href="https://yprogbest.github.io/styles.css">
+    <!-- FontAwesomeのインストール -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJT7GH63E6"></script>
     <script>
@@ -116,12 +118,15 @@
    <!-- jQuery -->
    <script>
     $(function() {
-    	$('.pagenation-block-index').paginathing({//親要素のclassを記述
-    		perPage: 5,//1ページあたりの表示件数
-    		prevText:'前へ',//1つ前のページへ移動するボタンのテキスト
-    		nextText:'次へ',//1つ次のページへ移動するボタンのテキスト
-    		activeClass: 'navi-active',//現在のページ番号に任意のclassを付与できます
-    	})
+      $('.pagenation_block').paginathing({//親要素のclassを記述
+       perPage: 5,//1ページあたりの表示件数
+       prevText:'<i class="fas fa-angle-left"></i>',//1つ前のページへ移動するボタンのテキスト
+       nextText:'<i class="fas fa-angle-right"></i>',//1つ次のページへ移動するボタンのテキスト
+       activeClass: 'navi-active',//現在のページ番号に任意のclassを付与できます
+       firstText: '<i class="fas fa-angle-double-left"></i>', // "最初ページ"に移動するボタンのテキスト
+       lastText: '<i class="fas fa-angle-double-right"></i>', // "最後のページ"に移動するボタンのテキスト
+    
+      })
     });
    </script>
 
