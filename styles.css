@@ -288,6 +288,9 @@ ul.footer-menu li a{
 	background-color: #333;
 	color: aliceblue;
 }
+.navi-active{
+	background-color: burlywood;
+}
 /* jQueryライブラリpaginathing.jsのレイアウト（終わり） */
 
 
