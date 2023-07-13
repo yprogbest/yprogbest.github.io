@@ -283,10 +283,15 @@ ul.footer-menu li a{
 
 
 /* Googleを用いた検索フォーム */
-.gsc-adBlock {
-  display: none !important;
+.gcse-searchbox-only{
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
+.gsc-adBlock {
+	display: none !important;
+}
+/* Googleを用いた検索フォーム（終わり） */
 
 
 
