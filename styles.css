@@ -282,6 +282,10 @@ ul.footer-menu li a{
 /* jQueryライブラリpaginathing.jsのレイアウト（終わり） */
 
 
+/* Googleを用いた検索フォーム */
+.gsc-adBlock {
+  display: none !important;
+}
 
 
 
