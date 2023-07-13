@@ -13,3 +13,45 @@ index.saveObject(record).wait()
 index
   .search('test_record')
   .then(({ hits }) => console.log(hits[0]))
+
+
+// 検索結果の表示
+const searchForm = document.getElementById('search-form');
+const searchInput = document.getElementById('search-input');
+const searchResults = document.getElementById('search-results');
+
+
+searchForm.addEventListener('submit', function (e) {
+  e.preventDefault(); // フォームのデフォルトの送信動作をキャンセル
+
+  const query = searchInput.value;
+
+  index.search({
+    query: query,
+    // 追加のオプションを指定することもできます
+  }).then((response) => {
+    displayResults(response.hits);
+  }).catch((error) => {
+    console.error(error);
+  });
+});
+
+function displayResults(results) {
+  searchResults.innerHTML = '';
+
+  if (results.length === 0) {
+    searchResults.innerHTML = '<p>該当する記事は見つかりませんでした。</p>';
+    return;
+  }
+
+  results.forEach((result) => {
+    const articleLink = document.createElement('a');
+    articleLink.href = result.url; // 記事の実際のURLに置き換える
+    articleLink.textContent = result.title; // 記事のタイトルに置き換える
+
+    const articleItem = document.createElement('div');
+    articleItem.appendChild(articleLink);
+
+    searchResults.appendChild(articleItem);
+  });
+}
