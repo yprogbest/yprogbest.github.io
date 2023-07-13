@@ -284,11 +284,8 @@ ul.footer-menu li a{
 
 /* 検索フォーム */
 .search-wrapper{
-	float: right;
+	float: left;
 	width: 40%; /* 適切な幅を指定してください */
-}
-.search-wrapper h2 {
-	margin-top: 0;
 }
 
 
@@ -341,11 +338,8 @@ ul.footer-menu li a{
 
 	/* 検索フォーム */
 	.search-wrapper{
-		float: right;
+		float: left;
 		width: 100%; /* 適切な幅を指定してください */
-	}
-	.search-wrapper h2 {
-		margin-top: 0;
 	}
 
 
