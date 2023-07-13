@@ -290,7 +290,12 @@ ul.footer-menu li a{
 .gsc-adBlock {
 	display: none !important;
 }
+
+.gcsc-more-maybe-branding-root{
+	display: none !important;
+}
 /* Googleを用いた検索フォーム（終わり） */
+
 
 
 
