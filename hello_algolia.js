@@ -5,7 +5,7 @@ const algoliasearch = require('algoliasearch')
 const client = algoliasearch('3E2AM5CTOC', 'b31eb770cd20a4f942c268f43c3714cb')
 
 // Create a new index and add a record
-const index = client.initIndex('test_index')
+const index = client.initIndex('yprog_search_index')
 const record = { objectID: 1, name: 'test_record' }
 index.saveObject(record).wait()
 
