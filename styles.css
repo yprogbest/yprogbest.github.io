@@ -283,8 +283,8 @@ ul.footer-menu li a{
 
 
 /* Googleを用いた検索フォーム */
-.i_ {
-  display: none !important;
+.gsc-wrapper .gsc-adBlock {
+  display: none;
 }
 
 
