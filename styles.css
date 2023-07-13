@@ -282,12 +282,6 @@ ul.footer-menu li a{
 /* jQueryライブラリpaginathing.jsのレイアウト（終わり） */
 
 
-/* 検索フォーム */
-#___gcse_0{
-	float: left;
-	width: 40%; /* 適切な幅を指定してください */
-}
-
 
 
 
@@ -334,12 +328,6 @@ ul.footer-menu li a{
 	/* YouTube */
 	.youtube-movie{
 		width:100%;
-	}
-
-	/* 検索フォーム */
-	#___gcse_0{
-		float: left;
-		width: 100%; /* 適切な幅を指定してください */
 	}
 
 
