@@ -1,2 +1,7 @@
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
+
+title: YProg
+description: Androidアプリを開発しています．『なんか面白いかも，なんか便利かも』をコンセプトに！
+author: YProg
