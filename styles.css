@@ -39,7 +39,7 @@ header {
 .nav-list-item {
 	list-style: none;
 	display: inline-block;
-	font-size:14px;
+	font-size:16px;
 	margin: 0 10px;
 }
 
@@ -170,7 +170,7 @@ ul.footer-menu{
 
 ul.footer-menu li {
 	display: inline;
-	font-size:14px;
+	font-size:16px;
 }
 
 ul.footer-menu li a{
