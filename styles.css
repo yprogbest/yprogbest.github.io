@@ -318,12 +318,12 @@ ul.footer-menu li a{
 /* RSS */
 .btn-rss {
 	display: inline-block;
-	padding: 5px 10px;
+	padding: 10px 10px;
 	background-color: #ffaf58;
 	color: #fff;
 	text-decoration: none;
 	border-radius: 4px;
-	font-size:12px;
+	font-size:14px;
 }
 /* RSS（終わり） */
 
