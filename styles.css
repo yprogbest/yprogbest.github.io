@@ -171,6 +171,7 @@ ul.footer-menu{
 ul.footer-menu li {
 	display: inline;
 	font-size:16px;
+	margin-bottom: 10px !important;
 }
 
 ul.footer-menu li a{
