@@ -4,8 +4,4 @@ plugins:
 
 title: YProg
 description: Androidアプリを開発しています．『なんか面白いかも，なんか便利かも』をコンセプトに！
-author:
-  name: YProg
-  email: yprogbest@gmail.com
-baseurl: ""
-url: "https://yprogbest.github.io/"
+author: YProg
