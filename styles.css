@@ -83,7 +83,7 @@ img {
 h2 {
 	margin-top: 5px;
 	margin-bottom: 5px;
-	font-size:18px;
+	font-size:20px;
 	position: relative;
 	padding: 0.25em 0;
 }
@@ -101,7 +101,7 @@ h3 {
 	background: #fffaf4;/*背景色*/
 	border-left: solid 5px #ffaf58;/*左線（実線 太さ 色）*/
 	margin-top: 0;
-	font-size:16px;
+	font-size:18px;
 }
 
 p {
