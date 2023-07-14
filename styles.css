@@ -295,11 +295,6 @@ ul.footer-menu li a{
 .navi-active{
 	background-color: burlywood;
 }
-
-.pagenation-block-blog {
-	height: auto;
-	width: auto;
-}
 /* jQueryライブラリpaginathing.jsのレイアウト（終わり） */
 
 
