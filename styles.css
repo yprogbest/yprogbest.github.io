@@ -104,8 +104,23 @@ h3 {
 	font-size:18px;
 }
 
+h4{
+	font-size:16px;
+}
+h4:first-letter {
+	font-size: 2em;
+	color: #ffaf58;
+}
+
+h5 {
+	padding: 0.25em 0.5em;/*上下 左右の余白*/
+	color: #494949;/*文字色*/
+	background: transparent;/*背景透明に*/
+	border-left: solid 5px #ffaf58;/*左線*/
+}
+
 p {
-	font-size:14px;
+	font-size:16px;
 }
 
 /* index.htmlの各articleのaタグ */
@@ -154,7 +169,7 @@ ul.footer-menu{
 
 ul.footer-menu li {
 	display: inline;
-	font-size:14px;
+	font-size:16px;
 }
 
 ul.footer-menu li a{
