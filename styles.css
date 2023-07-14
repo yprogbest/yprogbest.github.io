@@ -105,6 +105,7 @@ h3 {
 }
 
 h4{
+	margin-top: 0;
 	font-size:16px;
 }
 h4:first-letter {
