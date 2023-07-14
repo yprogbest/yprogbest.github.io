@@ -5,6 +5,8 @@
     <link rel="apple-touch-icon" href="https://yprogbest.github.io/img/YProg.png" sizes="180x180">
     <link rel="icon" type="image/png" href="https://yprogbest.github.io/img/YProg.png" sizes="192x192">
     <link rel="stylesheet" href="https://yprogbest.github.io/styles.css">
+    <!-- FontAwesomeのインストール -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DJT7GH63E6"></script>
     <script>
@@ -18,6 +20,10 @@
        crossorigin="anonymous"></script>
     <script async src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js"></script>
     <script defer src="https://apis.google.com/js/platform.js"></script>
+    <!-- jQueryのインストール箇所の開始 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/alfrcr/paginathing/dist/paginathing.min.js"></script>
+    <!-- jQueryのインストール箇所の終了 -->
     <!-- Googleを用いた検索フォーム -->
     <script async src="https://cse.google.com/cse.js?cx=12f176f7b45c44b6d"></script>
     <meta charset="UTF-8">
@@ -116,6 +122,30 @@
       </figure>
 
 
+
+      
+      <h3>ブログ</h3>
+      <div class="pagenation-block-blog">
+  
+         <!-- 他の記事も同様に追加できます -->
+     
+   
+        
+        <article>
+          <a class="main-a" href="https://yprogbest.github.io/posts_blog/1_2023711.html">
+            <div style="display: flex;">
+              <img class="lazyload" data-src="https://yprogbest.github.io/img/blog/1_2023711/hellowork_mendan.png" alt="記事のサムネイル画像" style="width: 50px; height: 50px;">
+              <div style="margin-left: 10px;">
+                <h4>A型事業所を探してきました。</h4>
+                <p>更新日：2023年7月11日</p>
+              </div>
+            </div>
+          </a>
+        </article>
+       </div>
+
+
+      
       
   
       <button type="button" class="btn-scroll" aria-label="スクロールボタン" onclick="scrollArticle(event)"><img class="scrollImg" src="https://yprogbest.github.io/img/computer_cursor_arrow_black.png" alt="スクロールボタン用の画像"></button>
@@ -133,6 +163,23 @@
       </ul>
       <p>© All rights reserved by YProg.</p>
     </footer>
+
+
+    
+    <!-- jQuery -->
+    <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+      $(".pagenation-block-blog").paginathing({
+        perPage: 3,//1ページあたりの表示件数
+        prevText:'<i class="fas fa-angle-left"></i>',//1つ前のページへ移動するボタンのテキスト
+        nextText:'<i class="fas fa-angle-right"></i>',//1つ次のページへ移動するボタンのテキスト
+        activeClass: 'navi-active',//現在のページ番号に任意のclassを付与できます
+        firstText: '<i class="fas fa-angle-double-left"></i>', // "最初ページ"に移動するボタンのテキスト
+        lastText: '<i class="fas fa-angle-double-right"></i>', // "最後のページ"に移動するボタンのテキスト
+      });
+    });
+    </script>
+    
   </body>
 </html>
 
