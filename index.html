@@ -25,6 +25,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/alfrcr/paginathing/dist/paginathing.min.js"></script>
     <!-- jQueryのインストール箇所の終了 -->
+    <!-- 共通パーツ読み込み -->
+    <script>
+      $(function() {
+           $("#header").load("https://yprogbest.github.io/includes/header.html");
+           $("#footer").load("https://yprogbest.github.io/includes/footer.html");
+    });
+    </script>
     <!-- Googleを用いた検索フォーム -->
     <script async src="https://cse.google.com/cse.js?cx=12f176f7b45c44b6d"></script>
     <meta charset="UTF-8">
@@ -36,15 +43,10 @@
 
     
   <body>
-   
-   <header>
-     <h1 class="headline">YProg</h1>
-     <ul class="nav-list">
-       <li class="nav-list-item"><a href="https://yprogbest.github.io/" class="link-color">ホーム</a></li>　
-       <li class="nav-list-item"><a href="https://yprogbest.github.io/profile.html" class="link-color">プロフィール</a></li>
-       <li class="nav-list-item"><a href="https://yprogbest.github.io/contact.html" class="link-color">お問い合わせ</a></li>
-     </ul>
-   </header>
+
+   <!-- header -->
+   <div id="header"></div>
+
    
    <main>
 
@@ -111,16 +113,9 @@
     </main>
   
   
-    <footer class="main-footer">
-      <ul class="footer-menu">
-        <li><a href="https://yprogbest.github.io/" class="link-color">ホーム</a> ｜</li>
-        <li><a href="https://yprogbest.github.io/profile.html" class="link-color">プロフィール ｜</a></li>
-        <br>
-        <li><a href="https://yprogbest.github.io/contact.html" class="link-color">お問い合わせ</a> ｜</li>
-        <li><a href="https://yprogbest.github.io/privacy.html" class="link-color">プライバシーポリシー</a> ｜</li>
-      </ul>
-      <p>© All rights reserved by YProg.</p>
-    </footer>
+   <!-- header -->
+   <div id="footer"></div>
+   
 
    
    <!-- jQuery -->
