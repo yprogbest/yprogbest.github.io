@@ -1,0 +1,2 @@
+Sitemap: https://yprogbest.github.io/sitemap.xml
+Disallow: https://yprogbest.github.io/index.html
