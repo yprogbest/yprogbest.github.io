@@ -1,2 +1,3 @@
-Sitemap: https://yprogbest.github.io/sitemap.xml
+User-Agent: *
 Disallow: https://yprogbest.github.io/index.html
+Sitemap: https://yprogbest.github.io/sitemap.xml
