@@ -2,7 +2,7 @@
 //H1タグのレイアウト（ネオン管風）
 function h1Layout(){
   
-  const target = window.document.getElementsByTagName('h1')[0]
+  const target = window.document.getElementsByTagName('h1')
   
   const flickerLetter = letter => `<span style="animation: text-flicker-in-glow ${Math.random()*4}s linear both ">${letter}</span>`
   const colorLetter = letter => `<span style="color: hsla(${Math.random()*360}, 100%, 80%, 1);">${letter}</span>`;
