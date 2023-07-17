@@ -1,7 +1,7 @@
 <header id="header">
   <h1 class="headline">YProg</h1>
   <ul class="nav-list">
-    <li class="nav-list-item"><a href="https://yprogbest.github.io/" class="link-color">ホーム</a></li>　
+    <li class="nav-list-item"><a href="https://yprogbest.github.io/" class="link-color">ホーム</a></li>
     <li class="nav-list-item"><a href="https://yprogbest.github.io/profile.html" class="link-color">プロフィール</a></li>
     <li class="nav-list-item"><a href="https://yprogbest.github.io/contact.html" class="link-color">お問い合わせ</a></li>
   </ul>
@@ -9,5 +9,19 @@
 
 
 
+<script>
+  function h1Layout() {
+    const target = document.querySelector('h1.headline');
+    const flickerLetter = letter => `<span style="animation: text-flicker-in-glow ${Math.random() * 4}s linear both ">${letter}</span>`;
+    const colorLetter = letter => `<span style="color: hsla(${Math.random() * 360}, 100%, 80%, 1);">${letter}</span>`;
+    const flickerAndColorText = text => Array.from(text).map(flickerLetter).map(colorLetter).join('');
+    const neonGlory = target => target.innerHTML = flickerAndColorText(target.textContent);
+    
+    neonGlory(target);
+    target.onclick = ({ target }) => neonGlory(target);
+  }
 
-<script defer src="https://yprogbest.github.io/script.js"></script>
+  document.addEventListener('DOMContentLoaded', function() {
+    h1Layout();
+  });
+</script>
