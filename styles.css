@@ -311,17 +311,18 @@ ul.footer-menu li {
 }
 /* Googleを用いた検索フォーム（終わり） */
 
-/* RSS */
-.btn-rss {
-	display: inline-block;
-	padding: 10px 10px;
-	background-color: #ffaf58;
-	color: #fff;
-	text-decoration: none;
-	border-radius: 4px;
-	font-size:14px;
+/* ブログ記事のトップ 画面*/
+.blog-top{
+	display: flex;
 }
-/* RSS（終わり） */
+.blog-top-img{
+	width: 100px; 
+	height: 100px;
+}
+.blog-top-article{
+	margin-left: 10px;
+}
+
 
 
 
