@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="thumbnail" content="https://yprogbest.github.io/img/YProg.png">
+    <meta name="description" content="本サイトの運営者であるYProgのプロフィールをご紹介します．"/>
+    <title>プロフィール-YProg-</title>
     <link rel="shortcut icon" href="https://yprogbest.github.io/img/favicon.ico"/>
     <link rel="apple-touch-icon" href="https://yprogbest.github.io/img/YProg.png" sizes="180x180">
     <link rel="icon" type="image/png" href="https://yprogbest.github.io/img/YProg.png" sizes="192x192">
@@ -24,32 +29,29 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/alfrcr/paginathing/dist/paginathing.min.js"></script>
     <!-- jQueryのインストール箇所の終了 -->
+    <!-- 共通パーツ読み込み -->
+    <script>
+      $(function() {
+           $("#header").load("https://yprogbest.github.io/includes/header.html");
+           $("#footer").load("https://yprogbest.github.io/includes/footer.html");
+    });
+    </script>
     <!-- Googleを用いた検索フォーム -->
     <script async src="https://cse.google.com/cse.js?cx=12f176f7b45c44b6d"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="thumbnail" content="https://yprogbest.github.io/img/YProg.png">
-    <meta name="description" content="本サイトの運営者であるYProgのプロフィールをご紹介します．"/>
-    <title>プロフィール-YProg-</title>
   </head>
   
   <body>
-    <header>
-      <h1 class="headline">YProg</h1>
-      <ul class="nav-list">
-        <li class="nav-list-item"><a href="https://yprogbest.github.io/" class="link-color">ホーム</a></li>　
-        <li class="nav-list-item"><a href="https://yprogbest.github.io/profile.html" class="link-color">プロフィール</a></li>
-        <li class="nav-list-item"><a href="https://yprogbest.github.io/contact.html" class="link-color">お問い合わせ</a></li>
-      </ul>
-    </header>
+    
+     <!-- header -->
+     <div id="header"></div>
   
     
     <main>
-
+    
       <!-- Googleを用いた検索フォーム -->
       <div class="gcse-searchbox-only"></div>
       
-
+    
       
       <img class="touch-prohibition lazyload" data-src="https://yprogbest.github.io/img/profile/marvin-meyer-SYTO3xs06fU-unsplash_3_copy.jpg" alt="プロフィール画像">
       <h2>プロフィール</h2>
@@ -65,26 +67,26 @@
       <div class="g-ytsubscribe" data-channelid="UCRcQB_cCxgw8Tbl3mAPtLfQ" data-layout="full" data-count="hidden"></div>
       
       <img class="touch-prohibition article-img lazyload" data-src="https://yprogbest.github.io/img/profile/4ADB8523-8263-4744-9E8E-886B5E77A7CA.jpg" alt="作業風景の画像">
-
-
-
+    
+    
+    
       
       <h3>アプリ開発にいたる経緯</h3>
       <p>大学を卒業して、就職したものの業務についていくことができず、わずか1か月で退社しました。</p>
       <p>自宅にあったAndroidスマホを使って、何か役に立つものを作ることができないかと考え、アプリ開発を開始しました。</p>
       <p>また、アプリ開発を行う上で、アルゴリズムやセキュリティに関する知識が必要と考え、IT系の資格取得に向けて勉強しています。</p>
-
-
-
-
+    
+    
+    
+    
       
-    　<h3>ブログ</h3>
+     <h3>ブログ</h3>
       <div class="pagenation-block-blog">
       
         <!-- 他の記事も同様に追加できます -->
       
-
-
+    
+    
         
         
         <article>
@@ -99,8 +101,8 @@
           </a>
         </article>
       </div>
-
-
+    
+    
       
       
       <h3>本ホームページの紹介動画</h3>
@@ -108,13 +110,13 @@
       <p>「こんなアプリが合ったらいいのにな...」などの意見がありましたら，YouTubeのコメント欄または本ホームページのお問い合わせフォームまで送って頂けると幸いです。</p>
       <p><span class="under">もしかしたら，あなたの意見がアプリになるかも！？</span></p>
       
-  
+    
       
       <!-- Youtubeの動画を埋め込む（classの指定を忘れないこと！） -->
       <iframe class="youtube-movie lazyload" width="560" height="315" data-src="https://www.youtube.com/embed/9rZgSNf0Iq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-
+    
+    
+    
       
       
       <h3>使用経験のある開発環境</h3>
@@ -135,7 +137,7 @@
         <img class="lazyload" data-src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt="jupyterのアイコン画像"/>
         <img class="lazyload" data-src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original-wordmark.svg" alt="androidstudioのアイコン画像"/>
       </div>
-  
+    
       
       
       <h3>取得した資格</h3>
@@ -148,7 +150,7 @@
         <img class="touch-prohibition article-img figure-img lazyload" data-src="https://yprogbest.github.io/img/profile/2CA3F513-C3A4-4B60-B0B9-FA1E0B281487.jpg" alt="ITパスポートの合格証書の画像">
         <figcaption>ITパスポート試験</figcaption>
       </figure>
-
+    
       
       
       <button type="button" class="btn-scroll" aria-label="スクロールボタン" onclick="scrollArticle(event)"><img class="scrollImg" src="https://yprogbest.github.io/img/computer_cursor_arrow_black.png" alt="スクロールボタン用の画像"></button>
@@ -156,16 +158,8 @@
     </main>
   
     
-    <footer class="main-footer">
-      <ul class="footer-menu">
-        <li><a href="https://yprogbest.github.io/" class="link-color">ホーム</a> ｜</li>
-        <li><a href="https://yprogbest.github.io/profile.html" class="link-color">プロフィール ｜</a></li>
-        <br>
-        <li><a href="https://yprogbest.github.io/contact.html" class="link-color">お問い合わせ</a> ｜</li>
-        <li><a href="https://yprogbest.github.io/privacy.html" class="link-color">プライバシーポリシー</a> ｜</li>
-      </ul>
-      <p>© All rights reserved by YProg.</p>
-    </footer>
+    <!-- footer -->
+    <div id="footer"></div>
 
 
     
