@@ -1,6 +1,12 @@
 <!DOCTYPE html>
  <html lang="ja">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--  thumbnailとdescriptionとtitleを記事毎に変更する！ -->
+    <meta name="thumbnail" content="https://yprogbest.github.io/img/app7/animalRaceIcon.png">
+    <meta name="description" content="このアプリでは，様々な動物で競争が出来ます．例えば，『人vsライオン』や『キリンvsトラ』などなど．"/>
+    <title>androidアプリ『あにまるレース』を開発しました！【無料】-YProg-</title>
     <link rel="shortcut icon" href="https://yprogbest.github.io/img/favicon.ico"/>
     <link rel="apple-touch-icon" href="https://yprogbest.github.io/img/YProg.png" sizes="180x180">
     <link rel="icon" type="image/png" href="https://yprogbest.github.io/img/YProg.png" sizes="192x192">
@@ -18,26 +24,26 @@
        crossorigin="anonymous"></script>
     <script async src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js"></script>
     <script defer src="https://apis.google.com/js/platform.js"></script>
+    <!-- jQueryのインストール箇所の開始 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/alfrcr/paginathing/dist/paginathing.min.js"></script>
+    <!-- jQueryのインストール箇所の終了 -->
+    <!-- 共通パーツ読み込み -->
+    <script>
+      $(function() {
+           $("#header").load("https://yprogbest.github.io/includes/header.html");
+           $("#footer").load("https://yprogbest.github.io/includes/footer.html");
+    });
+    </script>
     <!-- Googleを用いた検索フォーム -->
     <script async src="https://cse.google.com/cse.js?cx=12f176f7b45c44b6d"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <!--  thumbnailとdescriptionとtitleを記事毎に変更する！ -->
-    <meta name="thumbnail" content="https://yprogbest.github.io/img/app7/animalRaceIcon.png">
-    <meta name="description" content="このアプリでは，様々な動物で競争が出来ます．例えば，『人vsライオン』や『キリンvsトラ』などなど．"/>
-    <title>androidアプリ『あにまるレース』を開発しました！【無料】-YProg-</title>
   </head>
 
     
   <body>
-    <header>
-      <h1 class="headline">YProg</h1>
-      <ul class="nav-list">
-        <li class="nav-list-item"><a href="https://yprogbest.github.io/" class="link-color">ホーム</a></li>　
-        <li class="nav-list-item"><a href="https://yprogbest.github.io/profile.html" class="link-color">プロフィール</a></li>
-        <li class="nav-list-item"><a href="https://yprogbest.github.io/contact.html" class="link-color">お問い合わせ</a></li>
-      </ul>
-    </header>
+   
+    <!-- header -->
+    <div id="header"></div>
   
     
     <main>
@@ -107,15 +113,8 @@
     </main>
   
   
-    <footer class="main-footer">
-      <ul class="footer-menu">
-        <li><a href="https://yprogbest.github.io/" class="link-color">ホーム</a> ｜</li>
-        <li><a href="https://yprogbest.github.io/profile.html" class="link-color">プロフィール ｜</a></li>
-        <br>
-        <li><a href="https://yprogbest.github.io/contact.html" class="link-color">お問い合わせ</a> ｜</li>
-        <li><a href="https://yprogbest.github.io/privacy.html" class="link-color">プライバシーポリシー</a> ｜</li>
-      </ul>
-      <p>© All rights reserved by YProg.</p>
-    </footer>
+    <!-- footer -->
+    <div id="footer"></div>
+   
   </body>
 </html>
