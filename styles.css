@@ -341,10 +341,10 @@ blockquote:before{
 	width: 40px;
 	height: 30px;
 	text-align: center;
-	font-family: FontAwesome;
-	content: "\f10d";
+	content: "“";
+	font-family: sans-serif;
 	color: #FFF;
-	font-size: 18px;
+	font-size: 90px;
 	line-height: 30px;
 	background: #ffbe5d;
 	font-weight: 900;
