@@ -341,8 +341,8 @@ blockquote:before{
 	width: 40px;
 	height: 30px;
 	text-align: center;
-	content: "f10d";
 	font-family: FontAwesome;
+	content: "\f10d";
 	color: #FFF;
 	font-size: 18px;
 	line-height: 30px;
