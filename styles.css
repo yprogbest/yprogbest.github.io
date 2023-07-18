@@ -326,45 +326,28 @@ ul.footer-menu li {
 /* 引用タグ */
 blockquote {
 	position: relative;
-	padding: 5px 10px 5px 32px;
+	padding: 10px 15px 10px 50px;
 	box-sizing: border-box;
 	font-style: italic;
-	background: #ffebcd;
-	border-bottom: solid 3px #ffbe5d;
+	border: solid 2px #464646;
+	color: #464646;
 }
 
 blockquote:before{
 	display: inline-block;
 	position: absolute;
 	top: 10px;
-	left: -15px;
-	width: 40px;
-	height: 30px;
-	text-align: center;
+	left: 0;
 	content: "“";
 	font-family: sans-serif;
-	color: #FFF;
+	color: #ffaf58;
 	font-size: 90px;
-	line-height: 30px;
-	background: #ffbe5d;
-	font-weight: 900;
-}
-
-blockquote:after{
-	position: absolute;
-	content: '';
-	top: 40px;
-	left: -15px;
-	border: none;
-	border-bottom: solid 8px transparent;
-	border-right: solid 15px #daaa64;
+	line-height: 1;
 }
 
 blockquote p {
-	position: relative;
 	padding: 0;
 	margin: 10px 0;
-	z-index: 3;
 	line-height: 1.7;
 }
 
@@ -374,7 +357,6 @@ blockquote cite {
 	color: #888888;
 	font-size: 0.9em;
 }
-
 
 
 
