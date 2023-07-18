@@ -380,7 +380,7 @@ blockquote:before{
 	height: 30px;
 	text-align: center;
 	content: "\f10d";
-	font-family: Font Awesome 5 Free;
+	font-family: "Font Awesome 5 Free";
 	color: #FFF;
 	font-size: 18px;
 	line-height: 30px;
