@@ -353,7 +353,6 @@ blockquote p {
 
 blockquote cite {
 	display: block;
-	text-align: right;
 	color: #888888;
 	font-size: 0.9em;
 }
