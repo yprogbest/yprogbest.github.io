@@ -324,44 +324,6 @@ ul.footer-menu li {
 }
 
 /* 引用タグ */
-/* blockquote {
-	position: relative;
-	padding: 10px 15px 10px 50px;
-	box-sizing: border-box;
-	font-style: italic;
-	border: solid 2px #464646;
-	color: #464646;
-}
-
-blockquote:before{
-	display: inline-block;
-	position: absolute;
-	top: 10px;
-	left: 0;
-	content: "“";
-	font-family: sans-serif;
-	color: #ffaf58;
-	font-size: 90px;
-	line-height: 1;
-}
-
-blockquote p {
-	padding: 0;
-	margin: 10px 0;
-	line-height: 1.7;
-}
-
-blockquote cite {
-	display: block;
-	color: #888888;
-	font-size: 0.9em;
-} */
-
-
-
-
-
-/* 引用タグ */
 blockquote {
 	position: relative;
 	padding: 5px 10px 5px 32px;
@@ -412,6 +374,7 @@ blockquote cite {
 	color: #888888;
 	font-size: 0.9em;
 }
+
 
 
 
