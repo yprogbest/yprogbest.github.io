@@ -43,7 +43,7 @@ header {
 	margin: 0 10px;
 }
 
-h1 {
+.header-title {
 	margin: 0;
 	font-size:25px;
 	font-family: 'Monoton', cursive;
