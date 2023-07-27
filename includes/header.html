@@ -1,6 +1,6 @@
 <script>
   //headerのタイトルのレイアウト（ネオン管風）
-  const target = window.document.getElementsByClassName('header-title')
+  const target = window.document.getElementsByClassName('header-title')[0]
   
   const flickerLetter = letter => `<span style="animation: text-flicker-in-glow ${Math.random()*4}s linear both ">${letter}</span>`
   const colorLetter = letter => `<span style="color: hsla(${Math.random()*360}, 100%, 80%, 1);">${letter}</span>`;
