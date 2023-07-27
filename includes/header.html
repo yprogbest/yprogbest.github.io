@@ -1,6 +1,6 @@
 <script>
   //H1タグのレイアウト（ネオン管風）
-  const target = window.document.getElementsByTagName('h1')[0]
+  const target = window.document.getElementsByClassName('header-title')
   
   const flickerLetter = letter => `<span style="animation: text-flicker-in-glow ${Math.random()*4}s linear both ">${letter}</span>`
   const colorLetter = letter => `<span style="color: hsla(${Math.random()*360}, 100%, 80%, 1);">${letter}</span>`;
@@ -22,7 +22,7 @@
 
 
 <header id="header">
-  <h1 class="headline">YProg</h1>
+  <p class="headline header-title">YProg</p>
   <ul class="nav-list">
     <li class="nav-list-item"><a href="https://yprogbest.github.io/" class="link-color">ホーム</a></li>
     <li class="nav-list-item"><a href="https://yprogbest.github.io/profile.html" class="link-color">プロフィール＆ブログ</a></li>
