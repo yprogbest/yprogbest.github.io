@@ -29,6 +29,13 @@ header {
 	margin-left: 20px;
 }
 
+.header-title {
+	margin: 0;
+	font-size:25px;
+	font-family: 'Monoton', cursive;
+	font-weight: 400;
+}
+
 .nav-list {
 	line-height: 100px;
 	float: left;
@@ -41,13 +48,6 @@ header {
 	display: inline-block;
 	font-size:16px;
 	margin: 0 10px;
-}
-
-.header-title {
-	margin: 0;
-	font-size:25px;
-	font-family: 'Monoton', cursive;
-	font-weight: 400;
 }
 
 main {
