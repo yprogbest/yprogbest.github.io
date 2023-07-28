@@ -17,28 +17,30 @@ body {
 }
 
 header {
-	height: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 120px;
 	width: 100%;
-	padding: 15px 0;
 	background-color: #333;
 }
 
 .headline{
-	line-height: 100px;
-	float: left;
-	margin-top:16px;
-	margin-bottom:16px;
-	margin-left: 20px;
+	line-height: 50px;
+	text-align: center;
+	margin: 0;
 	font-size:25px;
 	font-family: 'Monoton', cursive;
 	font-weight: 400;
 }
 
 .nav-list {
-	line-height: 100px;
+	line-height: 50px;
 	float: left;
-	margin-left: 20px;
-	list-style: none;
+	padding: 0;
+	margin-top: 16px;
+	margin-left: 0;
+	text-align: center;
 	font-weight: bold;
 }
 .nav-list-item {
@@ -379,36 +381,6 @@ blockquote cite {
 /* レスポンシブ対応（縦持ちの場合） */
 @media only screen and (max-width: 600px){
 
-	/* ヘッダー */
-	header {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		height: 120px;
-		width: 100%;
-		background-color: #333;
-	}
-	
-	.headline {
-		line-height: 50px;
-		text-align: center;
-		margin: 0;
-	}
-	
-	.nav-list {
-		line-height: 50px;
-		list-style: none;
-		padding: 0;
-		margin-top: 15px;
-		margin-left: 0;
-		text-align: center;
-		font-weight: bold;
-	}
-	
-	.nav-list-item {
-		margin: 0 10px;
-		font-size:14px;
-	}
 
 	/* 各記事の画像 */
 	.article-img {
