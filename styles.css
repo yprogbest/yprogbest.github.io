@@ -27,10 +27,6 @@ header {
 	line-height: 100px;
 	float: left;
 	margin-left: 20px;
-}
-
-.header-title {
-	margin: 0;
 	font-size:25px;
 	font-family: 'Monoton', cursive;
 	font-weight: 400;
