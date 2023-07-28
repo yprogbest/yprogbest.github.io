@@ -26,6 +26,8 @@ header {
 .headline{
 	line-height: 100px;
 	float: left;
+	margin-top:16px;
+	margin-bottom:16px;
 	margin-left: 20px;
 	font-size:25px;
 	font-family: 'Monoton', cursive;
