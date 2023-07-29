@@ -388,10 +388,10 @@ blockquote cite {
 .swiper-slide {
 	/* スライドのサイズを調整、中身のテキスト配置調整、背景色 */
 	color: #ffffff;
-	width: 100%;
+	width: 150%;
 	height: auto;
 	text-align: center;
-	line-height: 300px;
+	line-height: auto;
 	text-align: center;
 }
 
