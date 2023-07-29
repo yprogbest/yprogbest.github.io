@@ -393,7 +393,7 @@ blockquote cite {
 	text-align: center;
 	line-height: auto;
 }
-.swiper-slide a img {
+.swiper-slide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
