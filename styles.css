@@ -405,7 +405,7 @@ blockquote cite {
 .swiper-button-prev {
 	background: url(https://haniwaman.com/cms/wp-content/uploads/2018/05/swiper3.png) no-repeat center center / contain;
 }
-.swiper-button-prev::after {
+.swiper-button-prev::before {
 	content: "";
 }
 
