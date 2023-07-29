@@ -415,7 +415,7 @@ blockquote cite {
 	content: "" !important;
 }
 .swiper-pagination-bullet-active{
-	color: #ffaf58 !important;
+	background: #ffaf58 !important;
 }
 
 
