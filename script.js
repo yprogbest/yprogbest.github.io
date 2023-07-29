@@ -17,7 +17,7 @@ const swiper = new Swiper(".swiper", {
   effect: "coverflow",
   grabCursor: true,
   centeredSlides: true,
-  slidesPerView: "1.5",
+  slidesPerView: "1.2",
 
   coverflowEffect: {
     rotate: 50,
