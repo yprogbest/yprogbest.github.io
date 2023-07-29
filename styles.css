@@ -380,6 +380,9 @@ blockquote cite {
 }
 
 /* おすすめの記事TOP3 */
+.swiper{
+	margin-bottom: 16px;
+}
 .swiper--wrapper {
 	/* wrapperのサイズを調整 */
 	width: 100%;
