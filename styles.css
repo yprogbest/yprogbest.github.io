@@ -397,9 +397,9 @@ blockquote cite {
 }
 .swiper-button-prev,
 .swiper-button-next {
-	width: 32px;
-	height: 32px;
-	margin-top: -16px;
+	width: 50px;
+	height: 50px;
+	margin-top: -25px;
 }
 .swiper-button-prev {
 	background: url(https://haniwaman.com/cms/wp-content/uploads/2018/05/swiper3.png) no-repeat center center / contain;
