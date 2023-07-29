@@ -12,9 +12,7 @@ function scrollArticle(event){
 const swiper = new Swiper(".swiper", {
   // ページネーションが必要なら追加
   pagination: {
-    el: ".swiper-pagination",
-    type: 'fraction',
-    clickable: true,
+    el: ".swiper-pagination"
   },
   effect: "coverflow",
   grabCursor: true,
