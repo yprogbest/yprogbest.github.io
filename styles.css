@@ -390,7 +390,6 @@ blockquote cite {
 }
 .swiper-slide {
 	/* スライドのサイズを調整、中身のテキスト配置調整、背景色 */
-	color: #ffffff;
 	width: 100%;
 	height: auto;
 	text-align: center;
@@ -414,6 +413,9 @@ blockquote cite {
 }
 .swiper-button-next::after {
 	content: "" !important;
+}
+.swiper-pagination-bullet-active{
+	color: #ffaf58 !important;
 }
 
 
