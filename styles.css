@@ -405,15 +405,15 @@ blockquote cite {
 .swiper-button-prev {
 	background: url(https://haniwaman.com/cms/wp-content/uploads/2018/05/swiper3.png) no-repeat center center / contain;
 }
-.swiper-button-prev::before {
-	content: "";
+.swiper-button-prev::after {
+	content: "" !important;
 }
 
 .swiper-button-next {
 	background: url(https://haniwaman.com/cms/wp-content/uploads/2018/05/swiper4.png) no-repeat center center / contain;
 }
 .swiper-button-next::after {
-	content: "";
+	content: "" !important;
 }
 
 
