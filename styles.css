@@ -382,7 +382,7 @@ blockquote cite {
 /* おすすめの記事TOP3 */
 .swiper--wrapper {
 	/* wrapperのサイズを調整 */
-	width: 100%;
+	width: 150%;
 	height: auto;
 }
 .swiper-slide {
@@ -392,7 +392,6 @@ blockquote cite {
 	height: auto;
 	text-align: center;
 	line-height: auto;
-	text-align: center;
 }
 
 
