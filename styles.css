@@ -379,6 +379,23 @@ blockquote cite {
 	font-size: 0.9em;
 }
 
+/* おすすめの記事TOP3 */
+.swiper--wrapper {
+	/* wrapperのサイズを調整 */
+	width: 100%;
+	height: auto;
+}
+.swiper-slide {
+	/* スライドのサイズを調整、中身のテキスト配置調整、背景色 */
+	color: #ffffff;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	line-height: auto;
+	text-align: center;
+}
+
+
 /*=================================================================================
 	カエレバ・ヨメレバ・トマレバ ここから
 =================================================================================*/
