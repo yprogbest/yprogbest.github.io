@@ -403,11 +403,11 @@ blockquote cite {
 	margin-top: -16px;
 }
 .swiper-button-prev {
-	content: url(https://haniwaman.com/cms/wp-content/uploads/2018/05/swiper3.png) no-repeat center center / contain;
+	background: url(https://haniwaman.com/cms/wp-content/uploads/2018/05/swiper3.png) no-repeat center center / contain;
 }
-/* .swiper-button-prev::after {
+.swiper-button-prev::after {
 	content: "";
-} */
+}
 
 .swiper-button-next {
 	background: url(https://haniwaman.com/cms/wp-content/uploads/2018/05/swiper4.png) no-repeat center center / contain;
