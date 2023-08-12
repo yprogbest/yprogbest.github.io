@@ -182,36 +182,6 @@ ul.footer-menu li {
 	text-decoration: none;
 }
 
-.btn-scroll{
-	position:fixed;
-	text-align: center;
-	bottom:15px;
-	right:15px;
-	width: 60px;
-	height: 60px;
-	padding: 0;
-	background: #fff;
-	border-radius: 50%;
-	-webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
-	box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
-}
-.btn-scroll{
-	line-height: 60px;
-	-webkit-transition: all .3s;
-	transition: all .3s;
-	letter-spacing: 0;
-}
-.btn-scroll:hover{
-	line-height: 55px;
-}
-.scrollImg{
-	margin:0;
-	margin-top:10%;
-	width:80%;
-	height:80%;
-}
-
-
 .google-form{
 	width: 100%;
 }
@@ -494,6 +464,33 @@ blockquote cite {
 /*=================================================================================
 	カエレバ・ヨメレバ・トマレバ ここまで
 =================================================================================*/
+
+.btn-scroll{
+	position:fixed;
+	text-align: center;
+	bottom:15px;
+	right:15px;
+	width: 60px;
+	height: 60px;
+	padding: 0;
+	background: #fff;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+	box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+	line-height: 60px;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+	letter-spacing: 0;
+}
+.btn-scroll:hover{
+	line-height: 55px;
+}
+.scrollImg{
+	margin:0;
+	margin-top:10%;
+	width:80%;
+	height:80%;
+}
 
 
 
