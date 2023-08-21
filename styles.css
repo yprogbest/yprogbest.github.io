@@ -547,11 +547,12 @@ blockquote cite {
 	display: flex;
 	flex-wrap: wrap;
 	list-style: none;
+	padding:0;
 }
 
 .breadcrumb li:not(:last-of-type)::after {
 	content: "›";
-	margin: 0 .6em; /* 記号の左右の余白 */
+	margin: 0 .2em; /* 記号の左右の余白 */
 	color: #777; /* 記号の色 */
 }
 /* パンくずリスト ここまで */
