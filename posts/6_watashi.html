@@ -54,15 +54,20 @@
 
 
       <!-- パンくずリスト -->
-      <nav>
-        <ol class="breadcrumb">
-          <li><a href="https://yprogbest.github.io/">ホーム</a></li>
-          <li>現在のページ</li>
-        </ol>
-      </nav>
+      <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+       <!-- 1つめ -->
+       <li itemprop="itemListElement" itemscope
+           itemtype="https://schema.org/ListItem">
+         <a itemprop="item" href="https://yprogbest.github.io/">
+             <span itemprop="name">ホーム</span>
+         </a>
+         <meta itemprop="position" content="1" />
+       </li>
+      </ol>
 
 
      
+      <!-- 記事の内容 -->
       <img class="lazyload" data-src="https://yprogbest.github.io/img/app6/feature_graphics.png" alt="記事のサムネイル画像">
       <h1>Androidアプリ『watashi-年齢・経歴計算アプリ』を開発しました！【無料】</h1>
         
