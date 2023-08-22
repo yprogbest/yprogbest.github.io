@@ -54,15 +54,28 @@
 
 
       <!-- パンくずリスト -->
-      <nav>
-        <ol class="breadcrumb">
-          <li><a href="https://yprogbest.github.io/profile.html">プロフィール＆ブログ</a></li>
-          <li>現在のページ</li>
-        </ol>
-      </nav>
+      <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+       <!-- 1つめ -->
+       <li itemprop="itemListElement" itemscope
+           itemtype="https://schema.org/ListItem">
+         <a itemprop="item" href="https://yprogbest.github.io/">
+             <span itemprop="name">ホーム</span>
+         </a>
+         <meta itemprop="position" content="1" />
+       </li>
+       <!-- 2つめ -->
+       <li itemprop="itemListElement" itemscope
+           itemtype="https://schema.org/ListItem">
+         <a itemprop="item" href="https://yprogbest.github.io/profile.html">
+             <span itemprop="name">プロフィール＆ブログ</span>
+         </a>
+         <meta itemprop="position" content="2" />
+       </li>
+      </ol>
+
 
      
-     
+      <!-- 記事の内容 -->
       <img class="article-img lazyload" data-src="https://yprogbest.github.io/img/blog/3_2023720/bikkuri_me_tobideru_man.png" alt="記事のサムネイル画像">
       <h1>就労継続支援事業所に行く前に気をつけた方がいいこと。</h1>
       <p>更新日：2023年7月20日</p>
