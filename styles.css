@@ -117,6 +117,16 @@ p {
 	color: #888;
 }
 
+/* 新着記事のタイトル */
+.news-title-p{
+	margin: 0;
+	font-size:20px;
+}
+.news-title-p:first-letter {
+	font-size: 2em;
+	color: #ffaf58;
+}
+
 .article-title{
 	margin: 0;
 	font-size:18px;
