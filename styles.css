@@ -472,11 +472,12 @@ blockquote cite {
 	カエレバ・ヨメレバ・トマレバ ここまで
 =================================================================================*/
 
+/* スクロール用ボタン */
 .btn-scroll{
 	position:fixed;
 	z-index:1;
 	text-align: center;
-	bottom:15px;
+	bottom:50px;
 	right:15px;
 	width: 60px;
 	height: 60px;
@@ -651,5 +652,25 @@ blockquote cite {
 		margin-top: 10px;
 	}
 	/* 新着情報 ここまで */
+
+	/* スクロール用ボタン */
+	.btn-scroll{
+		position:fixed;
+		z-index:1;
+		text-align: center;
+		bottom:15px;
+		right:15px;
+		width: 60px;
+		height: 60px;
+		padding: 0;
+		background: #fff;
+		border-radius: 50%;
+		-webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+		box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+		line-height: 60px;
+		-webkit-transition: all .3s;
+		transition: all .3s;
+		letter-spacing: 0;
+	}
 
 }
