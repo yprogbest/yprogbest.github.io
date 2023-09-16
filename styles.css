@@ -603,8 +603,8 @@ blockquote cite {
 }
 /* 星のスタイル */
 .star {
-	position: absolute;
-	display: block;
+/* 	position: absolute; */
+/* 	display: block; */
 	background-color: #fff; /* 星の色 */
 	border-radius: 50%;
 	box-shadow: 0 0 4px 2px rgba(#fff, 0.2); /* 星の影 */
