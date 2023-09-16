@@ -184,6 +184,11 @@ ul.footer-menu{
 ul.footer-menu li {
 	display: inline;
 	font-size:16px;
+	font-weight: bold;
+}
+
+.footer-rights{
+	font-weight: bold;
 }
 
 .link-color{
