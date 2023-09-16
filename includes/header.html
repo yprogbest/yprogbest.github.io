@@ -1,5 +1,5 @@
+<!-- headerのタイトルのレイアウト（ネオン管風） -->
 <script>
-  //headerのタイトルのレイアウト（ネオン管風）
   const target = window.document.getElementsByClassName('headline')[0]
   
   const flickerLetter = letter => `<span style="animation: text-flicker-in-glow ${Math.random()*4}s linear both ">${letter}</span>`
@@ -17,6 +17,8 @@
   target.onclick = ({ target }) =>  neonGlory(target);
 </script>
 
+
+<!-- 星空エフェクト -->
 <script>
   // 星を表示するための親要素を取得
   const stars = document.querySelector(".stars");
