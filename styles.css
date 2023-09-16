@@ -599,6 +599,35 @@ blockquote cite {
 /* パンくずリスト ここまで */
 
 
+/* 星空の背景のスタイル */
+.stars {
+  background-image: linear-gradient(0deg, #00dedc, #115d89, #080f1c); /* 星空の背景色 */
+  overflow: hidden; /* 星が枠外にはみ出すのを防ぐ */
+}
+/* 星のスタイル */
+.star {
+  position: absolute;
+  display: block;
+  background-color: #fff; /* 星の色 */
+  border-radius: 50%;
+  box-shadow: 0 0 4px 2px rgba(#fff, 0.2); /* 星の影 */
+  opacity: 0;
+  animation: twinkle 5s infinite;
+}
+/* 星がキラキラ光るアニメーション */
+@keyframes twinkle {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
 
 
 
