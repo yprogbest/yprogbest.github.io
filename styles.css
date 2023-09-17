@@ -29,15 +29,15 @@ header {
 
 /* 月の画像 */
 .header-moon-img{
-	height: 50px;
-	width: 50px;
+	height: 25px;
+	width: 25px;
 }
 
 .headline{
 	line-height: 50px;
 	text-align: center;
 	margin: 0;
-	margin-top:25px;
+	margin-top:15px;
 	font-size:40px;
 	font-family: 'Monoton', cursive;
 	font-weight: 400;
